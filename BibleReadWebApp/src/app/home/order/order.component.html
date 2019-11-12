@@ -1,0 +1,38 @@
+<header  class="lita-modal-title" fxLayout="row" fxLayoutAlign="space-between center">
+    <h2 mat-dialog-title>{{ title }}</h2>
+    <button mat-icon-button matSuffix mat-dialog-close><mat-icon style="color: #fff;">clear</mat-icon></button>
+</header>
+<section class="lita-modal">
+    <div fxLayout="row">
+        <mat-form-field  mat-dialog-title appearance="fill" class="lita-search" fxFlex="50%" fxFlexFill>
+          <mat-label>Search Publications</mat-label>
+          <input matInput autocomplete="off"
+            placeholder="ex: bhs, nwt, Jeremiah..." [(ngModel)]="pubText">
+          <button mat-button *ngIf="pubText" matSuffix mat-icon-button aria-label="Clear" (click)="pubText=''">
+            <mat-icon>close</mat-icon>
+          </button>
+          <mat-icon matSuffix *ngIf="!pubText">search</mat-icon>
+        </mat-form-field>
+      </div>
+      <mat-dialog-content >
+          <lita-spinner *ngIf="loading else loaded"></lita-spinner>
+          <ng-template #loaded>
+              <section class="lita-section lita-cards lita-publication" fxLayout="row wrap" fxLayoutGap="10px">
+                <mat-card *ngFor="let pub of publications | pubfilter : pubText" fxFlex="220px">
+                  <a [routerLink]="['/home/add-publication', routed_id, pub.id]" (click)="close()">
+                        <img mat-card-image [src]="pub.cover" class="lita-pub--avatar">
+                        <mat-card-subtitle align="center">{{ pub.contextTitle }}</mat-card-subtitle>
+                      <mat-card-title align="center">{{ pub.name }}</mat-card-title>
+                  <mat-card-content>  
+                    <br> 
+                  </mat-card-content>
+                  <mat-card-footer align="end">
+                      <span *ngIf="pub.pubId">{{ pub.pubId }}</span>
+                      <span>{{ pub.id }}</span>
+                  </mat-card-footer>
+                </a>
+                </mat-card>
+              </section>
+            </ng-template>
+      </mat-dialog-content>
+</section>

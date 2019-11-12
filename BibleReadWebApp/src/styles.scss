@@ -1,1 +1,177 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+@import '~@angular/material/theming';
+
+
+  a, button {
+	cursor: pointer;
+  }
+
+  
+table {
+    width: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+lita-* {
+    width: 100% !important;
+}
+
+h2 {
+    font-weight: 300;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+p {
+    color: #3339;
+    font-size: 18px;
+}
+.mat-form-field-underline {  display: none; }
+.mat-form-field-appearance-fill .mat-form-field-flex { border-radius: 10px !important; }
+.column { 
+    flex-direction: column;
+}
+
+.lita-section {
+    padding: 2pc;
+
+    &.lita-login {
+        height: calc(100% - 5pc);
+        background:initial;
+        padding: 5pc 0 0 0;
+        position: absolute;
+        .lita-login {
+        &--card {
+            width: 40%;
+            height: min-content;
+            box-shadow: 2px 2px 20px #3333;
+        }
+    } 
+    
+    button {
+        margin: 10px 0;
+    }
+    mat-form-field {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        }
+        .social {
+            margin: 10px 5px 10px 0;
+            fa-icon {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.lita-search {
+    width: 100%;
+    margin: 1pc 0;
+    .mat-form-field-wrapper {
+        padding-bottom: 0 !important;
+    }
+    .mat-form-field-flex {
+        border-radius: 10px !important;
+    }
+    .mat-form-field-underline {
+        display: none;
+    }
+}
+.lita-table {
+    box-shadow: none;
+}
+
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #3331 !important;
+    &-header {
+        color: #333;
+        &-text {
+         margin: 0 !important;
+        }
+    }
+    &-title {
+        .lita-icon {
+            margin-right: 10px;
+        }
+    }
+}
+.lita-icon {
+    margin-right: 10px;
+}
+
+.mat-menu-panel {
+    border-radius: 7px !important;
+    box-shadow: 2px 2px 10px #3332 !important;
+}
+.lita-spinner {
+    padding: 10pc 0 0 0 !important;
+}
+
+
+.lita-button {
+    &--goback {
+        margin-bottom: 15px;
+    }
+}
+
+.mat-dialog-container {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+
+.lita-modal {
+    padding: 24px;
+}
+
+.lita-modal-title {
+    background: #0275bf;
+    padding: 10px 10px 10px 24px;
+     h2 {
+         color: #fff !important;
+         padding: 0;
+         margin: 0;
+     }
+}
+
+.lita-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  padding: 15px;
+  background: #3e3e3e;
+  span {
+    color: #8e8e8e;
+    margin-right: 5px;
+  }
+  .inline {
+    color: #fff;
+    margin-right: 5px;
+    background: transparent;
+  }
+  a {
+    line-height: 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #333333;
+    padding: 7px 10px;
+    background: #fff;
+    border-radius: 10px;
+  }
+}
+
+
+
