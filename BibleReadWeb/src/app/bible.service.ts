@@ -23,6 +23,10 @@ export class BibleService {
     return this.http.get('../../assets/data/ReadingPlans.json')
   }
 
+  fetchPlans(): Observable<any> {
+   return this.http.get('../../assets/data/ReadingPlans.json')
+ }
+
   getReadingPlan(): Observable<any> {
     return this.afs.collection('plans').doc('regular').collection('plan').valueChanges();
   }

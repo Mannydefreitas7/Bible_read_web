@@ -23,6 +23,7 @@ export class AppComponent {
   chapterNumberEnd:  string;
   ranges: string;
   bibleBooks = [];
+  plans = ["Regular", "The Writings of Moses", "Israel enters the promised land", "When the kings ruled Isreal", "The Jews return from exile", "Books of songs and practical wisdom", "The Prophets", "Accounts of Jesus\' Life and Ministry", "Growth of the christian congregation", "The letters of paul", "The writings of other apostles and disciples"]
   languagesData = [
   {
      name: 'Hindi',
@@ -47,7 +48,10 @@ ngOnInit() {
 //    this.getLanguages(`${language.url}json/html`, language.name);
 // })
 
-// this.loadReadinPlans();
+this.loadReadinPlans();
+
+//this.loadPlans()
+
 
 }
 
@@ -135,9 +139,10 @@ ngOnInit() {
 
    loadReadinPlans() {
 
-   this.db.database.ref('/plans').child('regular').set({
+   this.db.database.ref('/plans').child('0').set({
       numberDaysTotal: 365,
       name: 'regular',
+      index: 0,
       isRead: false
    });
    
@@ -179,7 +184,7 @@ ngOnInit() {
          }
        
 
-         this.db.database.ref('/plans').child('regular').child('days').child(`${i}`).set({
+         this.db.database.ref('/plans').child('0').child('days').child(`${i}`).set({
             id: `${i}`,
             bookNumber: plan[i - 1].bookNumber,
             bookName: plan[i - 1].bookName,
@@ -192,6 +197,78 @@ ngOnInit() {
    })
          
    }
+
+
+   loadPlans() {
+
+
+      this.bibleService.fetchPlans().subscribe(plan => {
+
+         for (var i = 1; i <= 10; i++) {
+
+            const filteredPlan = plan.filter(item => { return item.planNumber == i })
+            console.log(filteredPlan, this.plans[i])
+
+            this.db.database.ref('/plans').child(`${i}`).set({
+               numberDaysTotal: filteredPlan.length,
+               name: `${this.plans[i]}`,
+               index: i,
+               isRead: false
+            });
+
+          for (var x = 1; x <= filteredPlan.length; x++) { 
+            var chapterNumEnd = ''
+            const chapterNumberStart = String(filteredPlan[x - 1].chapters).split(' ')[0]
+   
+            if (String(filteredPlan[x - 1].chapters).split(' ').length == 3) {
+   
+               chapterNumEnd = String(filteredPlan[x - 1].chapters).split(' ')[2]
+   
+            } else {
+               chapterNumEnd = String(filteredPlan[x - 1].chapters).split(' ')[0]
+            }
+            
+            const bookNumber = filteredPlan[x - 1].bookNumber
+            
+            if (bookNumber < 10) {
+               this.bookNumber = `0${bookNumber}`;
+            } else {
+               this.bookNumber = `${bookNumber}`;
+            }
+   
+            if (Number(chapterNumberStart) < 10) {
+               this.chapterNumberStart = `00${chapterNumberStart}`;
+            } else if (Number(chapterNumberStart) < 100) {
+               this.chapterNumberStart = `0${chapterNumberStart}`;
+            } else {
+               this.chapterNumberStart = `${chapterNumberStart}`;
+            } 
+            if (Number(chapterNumEnd) < 10) {
+               this.chapterNumberEnd = `00${chapterNumEnd}`;
+            } else if (Number(chapterNumEnd) < 100) {
+               this.chapterNumberEnd = `0${chapterNumEnd}`;
+            } else {
+               this.chapterNumberEnd = `${chapterNumEnd}`;
+            }
+          
+   
+            this.db.database.ref('/plans').child(`${i}`).child('days').child(`${x}`).set({
+               id: `${x}`,
+               bookNumber: filteredPlan[x - 1].bookNumber,
+               bookName: filteredPlan[x - 1].bookName,
+               chapters: filteredPlan[x - 1].chapters,
+               range: `${this.bookNumber + this.chapterNumberStart}001-${this.bookNumber + this.chapterNumberEnd}999`,
+               isRead: false
+            });
+         }
+
+         }
+        
+
+      })
+   
+            
+      }
 
    getLanguages(url: string, language: string) {
 
