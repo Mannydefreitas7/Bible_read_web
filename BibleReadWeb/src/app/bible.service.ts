@@ -15,6 +15,10 @@ export class BibleService {
       return this.http.get('https://cors-anywhere.herokuapp.com/https://www.jw.org/en/library/bible/nwt/books/json/');
   }
 
+  fetchBible(): Observable<any> {
+   return this.afs.collection('bible').valueChanges();
+}
+
   fetchLocaleData(urlLocale: string): Observable<any> {
     return this.http.get(`https://cors-anywhere.herokuapp.com/${urlLocale}`)
   }
