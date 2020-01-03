@@ -23,6 +23,7 @@ export class AppComponent {
    chapterNumberStart: string;
    chapterNumberEnd: string;
    ranges: string;
+   filteredPlans = []
    bibleBooks = [];
    plans = ["Regular", "One Year", "The Writings of Moses", "Israel enters the promised land", "When the kings ruled Isreal", "The Jews return from exile", "Books of songs and practical wisdom", "The Prophets", "Accounts of Jesus\' Life and Ministry", "Growth of the christian congregation", "The letters of paul", "The writings of other apostles and disciples"]
    languagesData = [
@@ -49,9 +50,9 @@ export class AppComponent {
       //    this.getLanguages(`${language.url}json/html`, language.name);
       // })
 
-      //this.loadReadinPlans();
+      this.loadFirstPlan();
 
-      this.loadPlans()
+     // this.loadPlans()
       // this.loadRegularPlan()
 
    }
@@ -167,6 +168,7 @@ export class AppComponent {
             for (var x = 1; x <= totalChapters; x++) {
                this.db.database.ref('/plans').child(`0`).child('list').child(`${i}`).child('chapters').child(`${x}`).set({
                   chapters: x,
+                  data: this.formatChapters(`${x}`, i),
                   isRead: false
                })
             }
@@ -212,86 +214,106 @@ export class AppComponent {
    }
 
 
-   loadReadinPlans() {
-
+   loadFirstPlan() {
+      
       this.bibleService.fetchReadingPlan().subscribe(plan => {
+
+         this.db.database.ref('/plans').child('1').set({
+            index: 1,
+            isRead: false,
+            name: 'one year',
+            numberDaysTotal: 365
+         })
 
          for (var x = 1; x <= 66; x++) {
             const filteredPlan = plan.filter(item => {
                return item.bookNumber == x
             });
 
-            console.log(filteredPlan);
+            this.filteredPlans.push(filteredPlan)
 
-            for (var i = 1; i <= filteredPlan.length; i++) {
-
-               this.db.database.ref('/plans').child('1').child('list').child(`${x}`).child('chapters').child(`${i}`).set({
-                  chapters: filteredPlan[i - 1].chapters,
-                  isRead: false,
-                  range: this.formatChapters(filteredPlan[i - 1].chapters, filteredPlan[i - 1].bookNumber)
-               })
-            }
+            console.log(filteredPlan)
          }
-         console.log(plan);
+
+         this.filteredPlans.forEach(p => {
+            for (var x = 1; x <= 66; x++) {
+            this.db.database.ref('/plans').child('1').child('list').child(`${x}`).set({
+               bookName: p[x].bookName,
+               bookNumber: p[x - 1].bookNumber,
+               isRead: false,
+            })
+         }
       })
 
+
+               // for (var i = 1; i <= filteredPlan.length; i++) {
+
+               //    this.db.database.ref('/plans').child('1').child('list').child(`${x}`).child('chapters').child(`${i}`).set({
+               //       chapters: filteredPlan[i - 1].chapters,
+               //       isRead: false,
+               //       data: this.formatChapters(filteredPlan[i - 1].chapters, filteredPlan[i - 1].bookNumber)
+               //    })
+               // }
+
+  
+      })
+
+   }
+
+   countBooks(array: Array<any>): Number {
+
+      const group = (arr) => {
+         const reduced = arr.reduce((acc, curr) => {
+             const text = curr.bookNumber;
+             acc[text] = acc[text] || 0;
+             acc[text] ++;
+             return acc;
+         }, {});
+    return Object.getOwnPropertyNames(reduced).map((prop) => ({ text: prop, count: reduced[prop] }));
+
+     };
+     var grouped = group(array);
+      return grouped.length;
    }
 
    loadPlans() {
 
       this.bibleService.fetchPlans().subscribe(plan => {
-         // console.log(plan)
          let unique = [];
          let temp = []
-         let filteredPlans = []
+         let filteredPlans = [];
+         let filteredBooks = [];
+         let filterBook;
          let bookCount: number;
+         let dayCount: number;
 
 
             for (var i = 1; i <= 10; i++) {
 
                let filteredPlan = plan.filter(item => { return item.planNumber == i })
-               filteredPlans.push(filteredPlan)
-        
-            }
 
-               filteredPlans.filter(item => {
-                  for (var x = 1; x <= 66; x++) {
-                     if (item.bookNumber == x) {
-                        temp.push(item.bookNumber);
-          
-                       bookCount = temp.filter((elem, index, self) => {
-                           return index === self.indexOf(elem);
-                        }).length
-                        
-                     }
-                  }
-               })
+              filteredPlans.push(filteredPlan)
+               
+               
+            }  
             
+            filteredPlans.forEach(item => {
+            console.log(item)
+            console.log(this.countBooks(item)) 
+            
+            
+            })
+            for (var i = 1; i <= 10; i++) { }
 
-            console.log(filteredPlans, bookCount)
-
-
-               // console.log(filteredPlan)
-               // dayCount = filteredPlan.length
-               // unique.push({id: i+1, bookCount: bookCount});
-
-
-            // for (var z = 0; z <= unique[i - 1].bookCount; z++) {
-            //    for (var x = 0; x <= filteredPlan.length; x++) {
-
-            //    console.log(unique.length, filteredPlan.length)
-            // this.db.database.ref('/plans').child(`${unique[i - 1].id}`).child('list').child(`${z + 1}`).set({
-            //    //bookNumber: filteredPlan[x].bookNumber,
-            //    isRead: false,
-            //  //  bookName: filteredPlan[x].bookName
-            // });
-            //    }
-              
-            // }
-
-
-      });  
-   }
+            
+         //   this.db.database.ref('/plans').child(`${unique[i - 1].id}`).child('list').child(`${z + 1}`).set({
+               //bookNumber: filteredPlan[x].bookNumber,
+             //  isRead: false,
+             //  bookName: filteredPlan[x].bookName
+           // });
+  });
+            
+}
 
    getLanguages(url: string, language: string) {
 
