@@ -13,6 +13,7 @@ export class BibleService {
   bookChapters: String;
   chapters: string;
   bookNumber: string;
+  bookNum: number;
   chapterNumberStart: string;
   chapterNumberEnd: string;
   ranges: string;
@@ -86,6 +87,12 @@ export class BibleService {
     return grouped.length;
   }
 
+  countChapter(chapters: string): Array<string> {
+    let split = chapters.split(' ');
+
+    return split;
+  }
+
   loadFirstPlan() {
 
     this.fetchReadingPlan().subscribe(plan => {
@@ -120,6 +127,20 @@ export class BibleService {
             isRead: false,
             data: this.formatChapters(p[i - 1].chapters, p[i - 1].bookNumber)
           })
+
+          if (this.countChapter(p[i - 1].chapters).length > 1) {
+
+            for (var c = Number(this.countChapter(p[i - 1].chapters)[0]); c <= Number(this.countChapter(p[i - 1].chapters)[2]); c++) {
+              this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).child('chapters').child(`${i}`).child('list').child(`${c}`).set({
+                chapters: `${c}`,
+                isRead: false,
+                data: this.formatChapters(`${c}`, p[i - 1].bookNumber)
+              })
+            }
+
+          }
+
+
         }
       })
     })
@@ -128,7 +149,7 @@ export class BibleService {
   loadBibleBooks() {
 
     this.fetchData().subscribe(d => {
-      console.log(d.editionData.books['1']);
+    //  console.log(d.editionData.books['1']);
 
       for (var i = 1; i <= 66; i++) {
         this.bibleBooks.push(d.editionData.books[i])
@@ -139,13 +160,15 @@ export class BibleService {
           this.bookNumberData = `${i}`;
         }
 
-        this.db.database.ref('/bible').child(`${i}`).set({
-          book_number_data: this.bookNumberData,
-          book_number_html: `${i}`,
-          hasAudio: d.editionData.books[i].hasAudio,
-          short_name: d.editionData.books[i].officialAbbreviation,
-          total_chapters: d.editionData.books[i].chapterCount
-        })
+        // this.db.database.ref('/bible').child(`${i}`).set({
+        //   book_number_data: this.bookNumberData,
+        //   book_number_html: `${i}`,
+        //   hasAudio: d.editionData.books[i].hasAudio,
+        //   short_name: d.editionData.books[i].officialAbbreviation,
+        //   total_chapters: d.editionData.books[i].chapterCount
+        // })
+
+      //  console.log(d.editionData.books[i])
 
       }
     })
@@ -190,7 +213,7 @@ export class BibleService {
 
   }
 
-loadRegularPlan() {
+  loadRegularPlan() {
     let totaldays = 0;
     let totalChapters = 0;
 
@@ -224,9 +247,9 @@ loadRegularPlan() {
         }
       }
     });
-}
+  }
 
-loadPlans(num: number) {
+  loadPlans(num: number) {
     this.fetchData().subscribe(d => {
 
       this.fetchPlans().subscribe(plan => {
@@ -242,47 +265,204 @@ loadPlans(num: number) {
           }
         }
 
+        this.db.database.ref('/plans').child(`${num}`).set({
+          index: num,
+          isRead: false,
+          name: this.plans[num],
+          numberDaysTotal: filteredPlan.length
+        })
+
         for (var x = 1; x <= this.countBooks(filteredPlan); x++) {
 
+          
           this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).set({
-            bookNumber: x,
+            bookNumber: filteredBooks[x - 1][0].bookNumber,
             isRead: false,
             bookName: filteredBooks[x - 1][0].bookName
           });
 
           for (var i = 1; i <= filteredBooks[x - 1].length; i++) {
+
+            console.log(filteredBooks[x - 1][i - 1].chapters);
+
             this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).child('chapters').child(`${i}`).set({
               chapters: `${filteredBooks[x - 1][i - 1].chapters}`,
               isRead: false,
-              data: this.formatChapters(`${filteredBooks[x - 1][0].chapters}`, filteredBooks[x - 1][i - 1].bookNumber)
+              data: this.formatChapters(`${filteredBooks[x - 1][i - 1].chapters}`, filteredBooks[x - 1][i - 1].bookNumber)
             });
+
+            if (this.countChapter(filteredBooks[x - 1][i - 1].chapters).length > 1) {
+            
+              for (var c = Number(this.countChapter(filteredBooks[x - 1][i - 1].chapters)[0]); c <= Number(this.countChapter(filteredBooks[x - 1][i - 1].chapters)[2]); c++) {
+               // console.log(c)
+                this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).child('chapters').child(`${i}`).child('list').child(`${c}`).set({
+
+                  chapters: `${c}`,
+                  isRead: false,
+                  data: this.formatChapters(`${c}`, filteredBooks[x - 1][i - 1].bookNumber)
+                })
+              }
+
+            }
           }
         }
-      })
+      });
     });
 
+  }
+
+  loadPortionObject(bookName: string, data: any): Object {
+   let portion = {}
+   let name = '';
+   let chapters = '';
+   let number = 0;
+
+   for (var i = 1; i <= 66; i++) {
+
+   if (bookName.split(' ').length == 4) {
+      
+      name = bookName.split(' ')[0];
+      chapters = `${bookName.split(' ')[1]} ${bookName.split(' ')[2]} ${bookName.split(' ')[3]}`
+      if (data.editionData.books[i].standardName == name) {
+         number = i
+      }
+
+  } else if (bookName.split(' ').length == 2) {
+
+    name = bookName.split(' ')[0]
+    chapters = `${bookName.split(' ')[1]}`
+
+    if (data.editionData.books[i].standardName == name) {
+      number = i
+   }
+
+  } else if (bookName.split(' ').length == 5) {
+
+    name = `${bookName.split(' ')[0]} ${bookName.split(' ')[1]}`
+    chapters = `${bookName.split(' ')[2]} ${bookName.split(' ')[3]} ${bookName.split(' ')[4]}`
+
+    if (data.editionData.books[i].standardName == name) {
+      number = i
+   }
+
+  } else if (bookName.split(' ').length == 3) {
+
+    name = `${bookName.split(' ')[0]} ${bookName.split(' ')[1]}`
+    chapters = `${bookName.split(' ')[3]}`
+
+    if (data.editionData.books[i].standardName == name) {
+      number = i
+   }
+
+  } else if (bookName.split(' ').length == 6) {
+
+    name = `${bookName.split(' ')[0]} ${bookName.split(' ')[1]} ${bookName.split(' ')[2]}`
+    chapters = `${bookName.split(' ')[3]} ${bookName.split(' ')[4]} ${bookName.split(' ')[5]}`
+
+    if (data.editionData.books[i].standardName == name) {
+      number = i
+   }
+
+  }
+
+   portion = {
+      bookName: name,
+      bookNumber: number,
+      isRead: false,
+      chapters: chapters
+   } 
+}
+     return portion
+  }
+
+  loadChronoPlan() {
+    let bookName: string;
+    let bookNumber: number;
+    let bookData = [];
+    
+
+    this.fetchChronoPlan().subscribe(data => {
+   
+      this.fetchData().subscribe(fd => {
+
+      data.data2.forEach(d => {
+        let portion = {};
+        let day = []
+        let books = [];
+        let chapters = [];
+        let numb: number;
+        d.forEach(b => {
+        
+          day.push(this.loadPortionObject(b, fd))
+    
+      })
+      bookData.push({day})
+
+    })
+    console.log(bookData)
+    this.db.database.ref('/plans').child(`2`).set({
+      index: 2,
+      isRead: false,
+      name: 'chronological',
+      numberDaysTotal: bookData.length
+    });
+
+    for (var i = 1; i <= bookData.length; i++) { 
+   
+      bookData[i - 1]['day'].forEach(b => {
+        
+        this.db.database.ref('/plans').child(`2`).child('list').child(`${i}`).child(`list`).child(`${bookData[i - 1]['day'].indexOf(b) + 1}`).set({
+          bookName: b.bookName,
+          bookNumber: b.bookNumber,
+          isRead: false,
+          chapters: b.chapters
+        })
+
+        if (b.chapters.split(' ').length > 1) {
+          for (var x = Number(this.countChapter(b.chapters)[0]); x <= Number(this.countChapter(b.chapters)[2]); x++) {
+
+            this.db.database.ref('/plans').child(`2`).child('list').child(`${i}`).child(`list`).child(`${bookData[i - 1]['day'].indexOf(b) + 1}`).child('list').child(`${x}`).set({
+              chapter: x,
+              data: this.formatChapters(`${x}`, b.bookNumber),
+              bookNumber: b.bookNumber,
+              isRead: false,
+            })
+
+          }
+        }
+       
+        
+      })
+
+    }
+  }) 
+})
+
+    
+
+      
 }
 
-getLanguages(url: string, language: string) {
+  getLanguages(url: string, language: string) {
 
-  this.fetchLocaleData(url).subscribe(locale => {
-     this.db.database.ref('/languages').child(`${locale.editionData.locale}`).set({
+    this.fetchLocaleData(url).subscribe(locale => {
+      this.db.database.ref('/languages').child(`${locale.editionData.locale}`).set({
         name: language,
         locale: locale.editionData.locale,
         audioLocale: locale.editionData.locale.charAt(0).toUpperCase(),
         url: `${locale.editionData.url}json/html`
-     });
+      });
 
-     for (var i = 1; i <= 66; i++) {
+      for (var i = 1; i <= 66; i++) {
 
         this.db.database.ref('/languages').child(`${locale.editionData.locale}`).child('bible_book').child(`${i}`).set({
-           index: i,
-           long_name: locale.editionData.books[i].standardName,
-           short_name: locale.editionData.books[i].officialAbbreviation
+          index: i,
+          long_name: locale.editionData.books[i].standardName,
+          short_name: locale.editionData.books[i].officialAbbreviation
         });
-     }
-  })
-}
+      }
+    })
+  }
 
 
 
@@ -300,6 +480,10 @@ getLanguages(url: string, language: string) {
 
   fetchReadingPlan(): Observable<any> {
     return this.http.get('../../assets/data/ReadingPlans.json')
+  }
+
+  fetchChronoPlan(): Observable<any> {
+    return this.http.get('../../assets/data/chrono.json')
   }
 
   fetchPlans(): Observable<any> {
