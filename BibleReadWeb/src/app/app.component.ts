@@ -20,6 +20,11 @@ export class AppComponent {
 
    //this.bibleService.loadChronoPlan();
    //this.bibleService.loadBibleBooks();
+  // this.bibleService.loadBibleHtml();
+   // this.bibleService.loadBibleBookChapters();
+   // this.bibleService.fetchData().subscribe(data => {
+   // //    console.log(data)
+   // // })
    }
 
 }
