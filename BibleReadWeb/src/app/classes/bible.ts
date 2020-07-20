@@ -1,9 +1,9 @@
-class Bible {
+export class Bible {
    additionalPages?: [Object];
    editionData?: BibleData;
 }
 
-class BibleData {
+export class BibleData {
    bookCount?: string;
    books?: [BibleBook];
    locale?: [];

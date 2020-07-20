@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AngularFirestore } from '@angular/fire/firestore';
 import 'rxjs/add/operator/map';
+import { BibleData } from './classes/bible'
 import { AngularFireDatabase } from '@angular/fire/database';
 @Injectable({
    providedIn: 'root'
@@ -100,45 +101,48 @@ export class BibleService {
             name: 'one year',
             numberDaysTotal: 365
          })
+       //  console.log(plan)
+         // for (var x = 1; x <= 66; x++) {
+         //    const filteredPlan = plan.filter(item => {
+         //       return item.bookNumber == x
+         //    });
 
-         for (var x = 1; x <= 66; x++) {
-            const filteredPlan = plan.filter(item => {
-               return item.bookNumber == x
-            });
+         //    this.filteredPlans.push(filteredPlan)
 
-            this.filteredPlans.push(filteredPlan)
+         // }
+         console.log(this.filteredPlans)
+         plan.forEach((p, i) => {
 
-         }
-         this.filteredPlans.forEach(p => {
+            // this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).set({
+            //    bookName: p[0].bookName,
+            //    bookNumber: p[0].bookNumber,
+            //    isRead: false,
+            // })
 
-            this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).set({
-               bookName: p[0].bookName,
-               bookNumber: p[0].bookNumber,
-               isRead: false,
-            })
+           // for (var i = 0; i < p.length; i++) {
 
-            for (var i = 1; i <= p.length; i++) {
-
-               this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).child('chapters').child(`${i}`).set({
-                  chapters: p[i - 1].chapters,
+               this.db.database.ref('/plans').child('1').child('chapters').child(`${i}`).set({
+                  chapters: p.chapters,
                   isRead: false,
-                  data: this.formatChapters(p[i - 1].chapters, p[i - 1].bookNumber)
+                  data: this.formatChapters(p.chapters, p.bookNumber),
+                  bookName: p.bookName,
+                  bookNumber: p.bookNumber,
                })
 
-               if (this.countChapter(p[i - 1].chapters).length > 1) {
+               // if (this.countChapter(p[i - 1].chapters).length > 1) {
 
-                  for (var c = Number(this.countChapter(p[i - 1].chapters)[0]); c <= Number(this.countChapter(p[i - 1].chapters)[2]); c++) {
-                     this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).child('chapters').child(`${i}`).child('list').child(`${c}`).set({
-                        chapters: `${c}`,
-                        isRead: false,
-                        data: this.formatChapters(`${c}`, p[i - 1].bookNumber)
-                     })
-                  }
+               //    for (var c = Number(this.countChapter(p[i - 1].chapters)[0]); c <= Number(this.countChapter(p[i - 1].chapters)[2]); c++) {
+               //       this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).child('chapters').child(`${i}`).child('list').child(`${c}`).set({
+               //          chapters: `${c}`,
+               //          isRead: false,
+               //          data: this.formatChapters(`${c}`, p[i - 1].bookNumber)
+               //       })
+               //    }
 
-               }
+               // }
 
 
-            }
+         //   }
          })
       })
    }
@@ -229,7 +233,7 @@ export class BibleService {
    loadRegularPlan() {
       let totaldays = 0;
       let totalChapters = 0;
-
+      let plans = []
       this.fetchData().subscribe((d) => {
 
          this.db.database.ref('/plans').child(`0`).set({
@@ -245,20 +249,37 @@ export class BibleService {
             totalChapters = Number(d.editionData.books[`${i}`].chapterCount)
             totaldays += totalChapters;
 
-            this.db.database.ref('/plans').child(`0`).child('list').child(`${i}`).set({
-               bookName: d.editionData.books[`${i}`].standardName,
-               bookNumber: i,
-               isRead: false,
-            })
+            // this.db.database.ref('/plans').child(`0`).child('chapters').child(`${i}`).set({
+            //    bookName: d.editionData.books[`${i}`].standardName,
+            //    bookNumber: i,
+            //    isRead: false,
+            //    chapters: x
+            // })
 
             for (var x = 1; x <= totalChapters; x++) {
-               this.db.database.ref('/plans').child(`0`).child('list').child(`${i}`).child('chapters').child(`${x}`).set({
+               // this.db.database.ref('/plans').child(`0`).child('list').child(`${i}`).child('chapters').child(`${x}`).set({
+               //    chapters: x,
+               //    data: this.formatChapters(`${x}`, i),
+               //    isRead: false
+               // })
+               plans.push({
                   chapters: x,
-                  data: this.formatChapters(`${x}`, i),
-                  isRead: false
+                  bookName: d.editionData.books[`${i}`].standardName,
+                  bookNumber: i,
+                  isRead: false,
+                  data: this.formatChapters(`${x}`, i)
                })
             }
          }
+         plans.forEach((p, i ) => {
+            this.db.database.ref('/plans').child(`0`).child('chapters').child(`${i}`).set({
+               chapters: p.chapters,
+               bookName: p.bookName,
+               bookNumber: p.bookNumber,
+               isRead: false,
+               data: p.data
+               })
+         })
       });
    }
 
@@ -296,7 +317,7 @@ export class BibleService {
 
                for (var i = 1; i <= filteredBooks[x - 1].length; i++) {
 
-                  console.log(filteredBooks[x - 1][i - 1].chapters);
+               
 
                   this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).child('chapters').child(`${i}`).set({
                      chapters: `${filteredBooks[x - 1][i - 1].chapters}`,
@@ -323,6 +344,35 @@ export class BibleService {
       });
 
    }
+
+
+   loadSelectedPlans(num: number) {
+      this.fetchData().subscribe(d => {
+         let filteredPlan = []
+         this.fetchPlans().subscribe(plan => {
+
+            filteredPlan = plan.filter(item => { return item.planNumber == num - 2 })
+            this.db.database.ref('/plans').child(`${num}`).set({
+               index: num,
+               isRead: false,
+               name: this.plans[num],
+               numberDaysTotal: filteredPlan.length
+            })
+          //  filteredPlan.sort((a, b) => b.bookNumber < a.bookNumber)
+            filteredPlan.forEach((p, x) => {
+               this.db.database.ref('/plans').child(`${num}`).child('chapters').child(`${x}`).set({
+                  bookNumber: p.bookNumber,
+                  isRead: false,
+                  bookName: p.bookName,
+                  chapters: p.chapters,
+                  data: this.formatChapters(`${p.chapters}`, p.bookNumber)
+               });
+            });
+         });
+      });
+
+   }
+
 
    loadPortionObject(bookName: string, data: any): Object {
       let portion = {}
@@ -424,25 +474,26 @@ export class BibleService {
 
                bookData[i - 1]['day'].forEach(b => {
 
-                  this.db.database.ref('/plans').child(`2`).child('list').child(`${i}`).child(`list`).child(`${bookData[i - 1]['day'].indexOf(b) + 1}`).set({
+                  this.db.database.ref('/plans').child(`2`).child('chapters').child(`${i}`).set({
                      bookName: b.bookName,
                      bookNumber: b.bookNumber,
                      isRead: false,
+                     data: this.formatChapters(`${b.chapters}`, b.bookNumber),
                      chapters: b.chapters
                   })
 
-                  if (b.chapters.split(' ').length > 1) {
-                     for (var x = Number(this.countChapter(b.chapters)[0]); x <= Number(this.countChapter(b.chapters)[2]); x++) {
+                  // if (b.chapters.split(' ').length > 1) {
+                  //    for (var x = Number(this.countChapter(b.chapters)[0]); x <= Number(this.countChapter(b.chapters)[2]); x++) {
 
-                        this.db.database.ref('/plans').child(`2`).child('list').child(`${i}`).child(`list`).child(`${bookData[i - 1]['day'].indexOf(b) + 1}`).child('list').child(`${x}`).set({
-                           chapter: x,
-                           data: this.formatChapters(`${x}`, b.bookNumber),
-                           bookNumber: b.bookNumber,
-                           isRead: false,
-                        })
+                  //       this.db.database.ref('/plans').child(`2`).child('list').child(`${i}`).child(`list`).child(`${bookData[i - 1]['day'].indexOf(b) + 1}`).child('list').child(`${x}`).set({
+                  //          chapter: x,
+                  //          data: this.formatChapters(`${x}`, b.bookNumber),
+                  //          bookNumber: b.bookNumber,
+                  //          isRead: false,
+                  //       })
 
-                     }
-                  }
+                  //    }
+                //  }
 
 
                })
