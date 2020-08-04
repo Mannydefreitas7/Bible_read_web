@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BibleReadWeb"
+    }
+  },
+  "defaultProject": "BibleReadWeb",
+  "cli": {
+    "analytics": false
+  }
 }

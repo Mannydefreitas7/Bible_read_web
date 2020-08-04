@@ -1,0 +1,191 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Mateo",
+        "shortName": "Mt"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Marcos",
+        "shortName": "Mr"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Lucas",
+        "shortName": "Lu"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Juan",
+        "shortName": "Jn"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Hechos",
+        "shortName": "Hch"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Romanos",
+        "shortName": "Ro"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 Corintios",
+        "shortName": "1Co"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 Corintios",
+        "shortName": "2Co"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Gálatas",
+        "shortName": "Gál"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Efesios",
+        "shortName": "Ef"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Filipenses",
+        "shortName": "Flp"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Colosenses",
+        "shortName": "Col"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Tesalonicenses",
+        "shortName": "1Te"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Tesalonicenses",
+        "shortName": "2Te"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 Timoteo",
+        "shortName": "1Ti"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 Timoteo",
+        "shortName": "2Ti"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Tito",
+        "shortName": "Tit"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Filemón",
+        "shortName": "Flm"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Hebreos",
+        "shortName": "Heb"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Santiago",
+        "shortName": "Snt"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Pedro",
+        "shortName": "1Pe"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Pedro",
+        "shortName": "2Pe"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Juan",
+        "shortName": "1Jn"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 Juan",
+        "shortName": "2Jn"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 Juan",
+        "shortName": "3Jn"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Judas",
+        "shortName": "Jud"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "Apocalipsis",
+        "shortName": "Apo"
+    }
+]

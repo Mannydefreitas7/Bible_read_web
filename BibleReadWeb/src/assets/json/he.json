@@ -1,0 +1,1850 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "בראשית",
+        "shortName": "בר"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "שמות",
+        "shortName": "שמ"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "ויקרא",
+        "shortName": "ויק"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "במדבר",
+        "shortName": "במד"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "דברים",
+        "shortName": "דב"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "יהושע",
+        "shortName": "יהו"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "שופטים",
+        "shortName": "שופ"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "רות",
+        "shortName": "רות"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "שמואל א׳‏",
+        "shortName": "שמא"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "שמואל ב׳‏",
+        "shortName": "שמב"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "מלכים א׳‏",
+        "shortName": "מלא"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "מלכים ב׳‏",
+        "shortName": "מלב"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "דברי הימים א׳‏",
+        "shortName": "דהא"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "דברי הימים ב׳‏",
+        "shortName": "דהב"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "עזרא",
+        "shortName": "עזר"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "נחמיה",
+        "shortName": "נחמ"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "אסתר",
+        "shortName": "אסת"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "איוב",
+        "shortName": "איו"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "תהלים",
+        "shortName": "תה"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "משלי",
+        "shortName": "משל"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "קהלת",
+        "shortName": "קהל"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "שיר השירים",
+        "shortName": "שהש"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "ישעיהו",
+        "shortName": "ישע"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "ירמיהו",
+        "shortName": "ירמ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "איכה",
+        "shortName": "איכ"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "יחזקאל",
+        "shortName": "יחז"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "דניאל",
+        "shortName": "דנ"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "הושע",
+        "shortName": "הוש"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "יואל",
+        "shortName": "יוא"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "עמוס",
+        "shortName": "עמו"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "עובדיה",
+        "shortName": "עוב"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "יונה",
+        "shortName": "יונ"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "מיכה",
+        "shortName": "מיכ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "נחום",
+        "shortName": "נחו"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "חבקוק",
+        "shortName": "חבק"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "צפניה",
+        "shortName": "צפנ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "חגי",
+        "shortName": "חגי"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "זכריה",
+        "shortName": "זכר"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "מלאכי",
+        "shortName": "מל"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מתי",
+        "shortName": "מתי"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "מרקוס",
+        "shortName": "מר"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "לוקס",
+        "shortName": "לוק"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "יוחנן",
+        "shortName": "יוח"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מעשי השליחים",
+        "shortName": "מהש"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "רומים",
+        "shortName": "רומ"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "קורינתים א׳‏",
+        "shortName": "קוא"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "קורינתים ב׳‏",
+        "shortName": "קוב"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "גלטים",
+        "shortName": "גלט"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "אפסים",
+        "shortName": "אפס"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "פיליפים",
+        "shortName": "פיל"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "קולוסים",
+        "shortName": "קול"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "תסלוניקים א׳‏",
+        "shortName": "תסא"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "תסלוניקים ב׳‏",
+        "shortName": "תסב"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "טימותיאוס א׳‏",
+        "shortName": "טמא"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "טימותיאוס ב׳‏",
+        "shortName": "טמב"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "טיטוס",
+        "shortName": "טיט"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "פילימון",
+        "shortName": "פלמ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "עברים",
+        "shortName": "עב"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יעקב",
+        "shortName": "יעק"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "פטרוס א׳‏",
+        "shortName": "פטא"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "פטרוס ב׳‏",
+        "shortName": "פטב"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יוחנן א׳.‏",
+        "shortName": "יחא"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ב׳.‏",
+        "shortName": "יחב"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ג׳.‏",
+        "shortName": "יחג"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יהודה",
+        "shortName": "יהד"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "ההתגלות",
+        "shortName": "התג"
+    },
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "בראשית",
+        "shortName": "בר"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "שמות",
+        "shortName": "שמ"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "ויקרא",
+        "shortName": "ויק"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "במדבר",
+        "shortName": "במד"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "דברים",
+        "shortName": "דב"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "יהושע",
+        "shortName": "יהו"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "שופטים",
+        "shortName": "שופ"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "רות",
+        "shortName": "רות"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "שמואל א׳‏",
+        "shortName": "שמא"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "שמואל ב׳‏",
+        "shortName": "שמב"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "מלכים א׳‏",
+        "shortName": "מלא"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "מלכים ב׳‏",
+        "shortName": "מלב"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "דברי הימים א׳‏",
+        "shortName": "דהא"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "דברי הימים ב׳‏",
+        "shortName": "דהב"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "עזרא",
+        "shortName": "עזר"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "נחמיה",
+        "shortName": "נחמ"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "אסתר",
+        "shortName": "אסת"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "איוב",
+        "shortName": "איו"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "תהלים",
+        "shortName": "תה"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "משלי",
+        "shortName": "משל"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "קהלת",
+        "shortName": "קהל"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "שיר השירים",
+        "shortName": "שהש"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "ישעיהו",
+        "shortName": "ישע"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "ירמיהו",
+        "shortName": "ירמ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "איכה",
+        "shortName": "איכ"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "יחזקאל",
+        "shortName": "יחז"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "דניאל",
+        "shortName": "דנ"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "הושע",
+        "shortName": "הוש"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "יואל",
+        "shortName": "יוא"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "עמוס",
+        "shortName": "עמו"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "עובדיה",
+        "shortName": "עוב"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "יונה",
+        "shortName": "יונ"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "מיכה",
+        "shortName": "מיכ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "נחום",
+        "shortName": "נחו"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "חבקוק",
+        "shortName": "חבק"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "צפניה",
+        "shortName": "צפנ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "חגי",
+        "shortName": "חגי"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "זכריה",
+        "shortName": "זכר"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "מלאכי",
+        "shortName": "מל"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מתי",
+        "shortName": "מתי"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "מרקוס",
+        "shortName": "מר"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "לוקס",
+        "shortName": "לוק"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "יוחנן",
+        "shortName": "יוח"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מעשי השליחים",
+        "shortName": "מהש"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "רומים",
+        "shortName": "רומ"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "קורינתים א׳‏",
+        "shortName": "קוא"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "קורינתים ב׳‏",
+        "shortName": "קוב"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "גלטים",
+        "shortName": "גלט"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "אפסים",
+        "shortName": "אפס"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "פיליפים",
+        "shortName": "פיל"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "קולוסים",
+        "shortName": "קול"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "תסלוניקים א׳‏",
+        "shortName": "תסא"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "תסלוניקים ב׳‏",
+        "shortName": "תסב"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "טימותיאוס א׳‏",
+        "shortName": "טמא"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "טימותיאוס ב׳‏",
+        "shortName": "טמב"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "טיטוס",
+        "shortName": "טיט"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "פילימון",
+        "shortName": "פלמ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "עברים",
+        "shortName": "עב"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יעקב",
+        "shortName": "יעק"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "פטרוס א׳‏",
+        "shortName": "פטא"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "פטרוס ב׳‏",
+        "shortName": "פטב"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יוחנן א׳.‏",
+        "shortName": "יחא"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ב׳.‏",
+        "shortName": "יחב"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ג׳.‏",
+        "shortName": "יחג"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יהודה",
+        "shortName": "יהד"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "ההתגלות",
+        "shortName": "התג"
+    },
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "בראשית",
+        "shortName": "בר"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "שמות",
+        "shortName": "שמ"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "ויקרא",
+        "shortName": "ויק"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "במדבר",
+        "shortName": "במד"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "דברים",
+        "shortName": "דב"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "יהושע",
+        "shortName": "יהו"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "שופטים",
+        "shortName": "שופ"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "רות",
+        "shortName": "רות"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "שמואל א׳‏",
+        "shortName": "שמא"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "שמואל ב׳‏",
+        "shortName": "שמב"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "מלכים א׳‏",
+        "shortName": "מלא"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "מלכים ב׳‏",
+        "shortName": "מלב"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "דברי הימים א׳‏",
+        "shortName": "דהא"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "דברי הימים ב׳‏",
+        "shortName": "דהב"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "עזרא",
+        "shortName": "עזר"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "נחמיה",
+        "shortName": "נחמ"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "אסתר",
+        "shortName": "אסת"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "איוב",
+        "shortName": "איו"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "תהלים",
+        "shortName": "תה"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "משלי",
+        "shortName": "משל"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "קהלת",
+        "shortName": "קהל"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "שיר השירים",
+        "shortName": "שהש"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "ישעיהו",
+        "shortName": "ישע"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "ירמיהו",
+        "shortName": "ירמ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "איכה",
+        "shortName": "איכ"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "יחזקאל",
+        "shortName": "יחז"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "דניאל",
+        "shortName": "דנ"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "הושע",
+        "shortName": "הוש"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "יואל",
+        "shortName": "יוא"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "עמוס",
+        "shortName": "עמו"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "עובדיה",
+        "shortName": "עוב"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "יונה",
+        "shortName": "יונ"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "מיכה",
+        "shortName": "מיכ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "נחום",
+        "shortName": "נחו"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "חבקוק",
+        "shortName": "חבק"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "צפניה",
+        "shortName": "צפנ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "חגי",
+        "shortName": "חגי"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "זכריה",
+        "shortName": "זכר"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "מלאכי",
+        "shortName": "מל"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מתי",
+        "shortName": "מתי"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "מרקוס",
+        "shortName": "מר"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "לוקס",
+        "shortName": "לוק"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "יוחנן",
+        "shortName": "יוח"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מעשי השליחים",
+        "shortName": "מהש"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "רומים",
+        "shortName": "רומ"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "קורינתים א׳‏",
+        "shortName": "קוא"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "קורינתים ב׳‏",
+        "shortName": "קוב"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "גלטים",
+        "shortName": "גלט"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "אפסים",
+        "shortName": "אפס"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "פיליפים",
+        "shortName": "פיל"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "קולוסים",
+        "shortName": "קול"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "תסלוניקים א׳‏",
+        "shortName": "תסא"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "תסלוניקים ב׳‏",
+        "shortName": "תסב"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "טימותיאוס א׳‏",
+        "shortName": "טמא"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "טימותיאוס ב׳‏",
+        "shortName": "טמב"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "טיטוס",
+        "shortName": "טיט"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "פילימון",
+        "shortName": "פלמ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "עברים",
+        "shortName": "עב"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יעקב",
+        "shortName": "יעק"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "פטרוס א׳‏",
+        "shortName": "פטא"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "פטרוס ב׳‏",
+        "shortName": "פטב"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יוחנן א׳.‏",
+        "shortName": "יחא"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ב׳.‏",
+        "shortName": "יחב"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ג׳.‏",
+        "shortName": "יחג"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יהודה",
+        "shortName": "יהד"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "ההתגלות",
+        "shortName": "התג"
+    },
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "בראשית",
+        "shortName": "בר"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "שמות",
+        "shortName": "שמ"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "ויקרא",
+        "shortName": "ויק"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "במדבר",
+        "shortName": "במד"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "דברים",
+        "shortName": "דב"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "יהושע",
+        "shortName": "יהו"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "שופטים",
+        "shortName": "שופ"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "רות",
+        "shortName": "רות"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "שמואל א׳‏",
+        "shortName": "שמא"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "שמואל ב׳‏",
+        "shortName": "שמב"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "מלכים א׳‏",
+        "shortName": "מלא"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "מלכים ב׳‏",
+        "shortName": "מלב"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "דברי הימים א׳‏",
+        "shortName": "דהא"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "דברי הימים ב׳‏",
+        "shortName": "דהב"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "עזרא",
+        "shortName": "עזר"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "נחמיה",
+        "shortName": "נחמ"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "אסתר",
+        "shortName": "אסת"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "איוב",
+        "shortName": "איו"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "תהלים",
+        "shortName": "תה"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "משלי",
+        "shortName": "משל"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "קהלת",
+        "shortName": "קהל"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "שיר השירים",
+        "shortName": "שהש"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "ישעיהו",
+        "shortName": "ישע"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "ירמיהו",
+        "shortName": "ירמ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "איכה",
+        "shortName": "איכ"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "יחזקאל",
+        "shortName": "יחז"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "דניאל",
+        "shortName": "דנ"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "הושע",
+        "shortName": "הוש"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "יואל",
+        "shortName": "יוא"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "עמוס",
+        "shortName": "עמו"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "עובדיה",
+        "shortName": "עוב"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "יונה",
+        "shortName": "יונ"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "מיכה",
+        "shortName": "מיכ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "נחום",
+        "shortName": "נחו"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "חבקוק",
+        "shortName": "חבק"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "צפניה",
+        "shortName": "צפנ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "חגי",
+        "shortName": "חגי"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "זכריה",
+        "shortName": "זכר"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "מלאכי",
+        "shortName": "מל"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מתי",
+        "shortName": "מתי"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "מרקוס",
+        "shortName": "מר"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "לוקס",
+        "shortName": "לוק"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "יוחנן",
+        "shortName": "יוח"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "מעשי השליחים",
+        "shortName": "מהש"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "רומים",
+        "shortName": "רומ"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "קורינתים א׳‏",
+        "shortName": "קוא"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "קורינתים ב׳‏",
+        "shortName": "קוב"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "גלטים",
+        "shortName": "גלט"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "אפסים",
+        "shortName": "אפס"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "פיליפים",
+        "shortName": "פיל"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "קולוסים",
+        "shortName": "קול"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "תסלוניקים א׳‏",
+        "shortName": "תסא"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "תסלוניקים ב׳‏",
+        "shortName": "תסב"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "טימותיאוס א׳‏",
+        "shortName": "טמא"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "טימותיאוס ב׳‏",
+        "shortName": "טמב"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "טיטוס",
+        "shortName": "טיט"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "פילימון",
+        "shortName": "פלמ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "עברים",
+        "shortName": "עב"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יעקב",
+        "shortName": "יעק"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "פטרוס א׳‏",
+        "shortName": "פטא"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "פטרוס ב׳‏",
+        "shortName": "פטב"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "יוחנן א׳.‏",
+        "shortName": "יחא"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ב׳.‏",
+        "shortName": "יחב"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יוחנן ג׳.‏",
+        "shortName": "יחג"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "יהודה",
+        "shortName": "יהד"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "ההתגלות",
+        "shortName": "התג"
+    }
+]

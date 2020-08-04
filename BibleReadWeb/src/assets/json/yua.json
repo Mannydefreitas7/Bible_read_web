@@ -1,0 +1,926 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "Génesis",
+        "shortName": "Gé"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "Éxodo",
+        "shortName": "Éx"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "Levítico",
+        "shortName": "Le"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "Números",
+        "shortName": "Nú"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "Deuteronomio",
+        "shortName": "Dt"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Josué",
+        "shortName": "Jos"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Jueces",
+        "shortName": "Jue"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Rut",
+        "shortName": "Rut"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "1 Samuel",
+        "shortName": "1Sa"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "2 Samuel",
+        "shortName": "2Sa"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "1 Reyes",
+        "shortName": "1Re"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "2 Reyes",
+        "shortName": "2Re"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "1 Crónicas",
+        "shortName": "1Cr"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "2 Crónicas",
+        "shortName": "2Cr"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Esdras",
+        "shortName": "Esd"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Nehemías",
+        "shortName": "Ne"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Ester",
+        "shortName": "Est"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "Job",
+        "shortName": "Job"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "Salmos",
+        "shortName": "Sl"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "Proverbios",
+        "shortName": "Pr"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Eclesiastés",
+        "shortName": "Ec"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "Cantares",
+        "shortName": "Can"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "Isaías",
+        "shortName": "Isa"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "Jeremías",
+        "shortName": "Jer"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Lamentaciones",
+        "shortName": "Lam"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "Ezequiel",
+        "shortName": "Eze"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Daniel",
+        "shortName": "Da"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Oseas",
+        "shortName": "Os"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Joel",
+        "shortName": "Joe"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "Amós",
+        "shortName": "Am"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Abdías",
+        "shortName": "Abd"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Jonás",
+        "shortName": "Jon"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "Miqueas",
+        "shortName": "Miq"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Nahúm",
+        "shortName": "Na"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Habacuk",
+        "shortName": "Hab"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Sofonías",
+        "shortName": "Sof"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "Ageo",
+        "shortName": "Ag"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Zacarías",
+        "shortName": "Zac"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Malaquías",
+        "shortName": "Mal"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Mateo",
+        "shortName": "Mt"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Marcos",
+        "shortName": "Mr"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Lucas",
+        "shortName": "Lu"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Juan",
+        "shortName": "Jn"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Hechos",
+        "shortName": "Hch"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Romanos",
+        "shortName": "Ro"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 Corintios",
+        "shortName": "1Co"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 Corintios",
+        "shortName": "2Co"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Gálatas",
+        "shortName": "Gál"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Efesios",
+        "shortName": "Ef"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Filipenses",
+        "shortName": "Flp"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Colosenses",
+        "shortName": "Col"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Tesalonicenses",
+        "shortName": "1Te"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Tesalonicenses",
+        "shortName": "2Te"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 Timoteo",
+        "shortName": "1Ti"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 Timoteo",
+        "shortName": "2Ti"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Tito",
+        "shortName": "Tit"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Filemón",
+        "shortName": "Flm"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Hebreos",
+        "shortName": "Heb"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Santiago",
+        "shortName": "Snt"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Pedro",
+        "shortName": "1Pe"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Pedro",
+        "shortName": "2Pe"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Juan",
+        "shortName": "1Jn"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 Juan",
+        "shortName": "2Jn"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 Juan",
+        "shortName": "3Jn"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Judas",
+        "shortName": "Jud"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "Apocalipsis",
+        "shortName": "Ap"
+    },
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "Génesis",
+        "shortName": "Gé"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "Éxodo",
+        "shortName": "Éx"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "Levítico",
+        "shortName": "Le"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "Números",
+        "shortName": "Nú"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "Deuteronomio",
+        "shortName": "Dt"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Josué",
+        "shortName": "Jos"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Jueces",
+        "shortName": "Jue"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Rut",
+        "shortName": "Rut"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "1 Samuel",
+        "shortName": "1Sa"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "2 Samuel",
+        "shortName": "2Sa"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "1 Reyes",
+        "shortName": "1Re"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "2 Reyes",
+        "shortName": "2Re"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "1 Crónicas",
+        "shortName": "1Cr"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "2 Crónicas",
+        "shortName": "2Cr"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Esdras",
+        "shortName": "Esd"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Nehemías",
+        "shortName": "Ne"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Ester",
+        "shortName": "Est"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "Job",
+        "shortName": "Job"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "Salmos",
+        "shortName": "Sl"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "Proverbios",
+        "shortName": "Pr"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Eclesiastés",
+        "shortName": "Ec"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "Cantares",
+        "shortName": "Can"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "Isaías",
+        "shortName": "Isa"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "Jeremías",
+        "shortName": "Jer"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Lamentaciones",
+        "shortName": "Lam"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "Ezequiel",
+        "shortName": "Eze"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Daniel",
+        "shortName": "Da"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Oseas",
+        "shortName": "Os"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Joel",
+        "shortName": "Joe"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "Amós",
+        "shortName": "Am"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Abdías",
+        "shortName": "Abd"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Jonás",
+        "shortName": "Jon"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "Miqueas",
+        "shortName": "Miq"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Nahúm",
+        "shortName": "Na"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Habacuk",
+        "shortName": "Hab"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Sofonías",
+        "shortName": "Sof"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "Ageo",
+        "shortName": "Ag"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Zacarías",
+        "shortName": "Zac"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Malaquías",
+        "shortName": "Mal"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Mateo",
+        "shortName": "Mt"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Marcos",
+        "shortName": "Mr"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Lucas",
+        "shortName": "Lu"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Juan",
+        "shortName": "Jn"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Hechos",
+        "shortName": "Hch"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Romanos",
+        "shortName": "Ro"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 Corintios",
+        "shortName": "1Co"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 Corintios",
+        "shortName": "2Co"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Gálatas",
+        "shortName": "Gál"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Efesios",
+        "shortName": "Ef"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Filipenses",
+        "shortName": "Flp"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Colosenses",
+        "shortName": "Col"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Tesalonicenses",
+        "shortName": "1Te"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Tesalonicenses",
+        "shortName": "2Te"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 Timoteo",
+        "shortName": "1Ti"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 Timoteo",
+        "shortName": "2Ti"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Tito",
+        "shortName": "Tit"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Filemón",
+        "shortName": "Flm"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Hebreos",
+        "shortName": "Heb"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Santiago",
+        "shortName": "Snt"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Pedro",
+        "shortName": "1Pe"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Pedro",
+        "shortName": "2Pe"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Juan",
+        "shortName": "1Jn"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 Juan",
+        "shortName": "2Jn"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 Juan",
+        "shortName": "3Jn"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Judas",
+        "shortName": "Jud"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "Apocalipsis",
+        "shortName": "Ap"
+    }
+]

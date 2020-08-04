@@ -1,0 +1,464 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "उत्पत्ति",
+        "shortName": "उत"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "निर्गमन",
+        "shortName": "निर्ग"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "लैव्यव्यवस्था",
+        "shortName": "लैव"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "गिनती",
+        "shortName": "गि"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "व्यवस्थाविवरण",
+        "shortName": "व्य"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "यहोशू",
+        "shortName": "यह"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "न्यायियों",
+        "shortName": "न्या"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "रूत",
+        "shortName": "रूत"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "1 शमूएल",
+        "shortName": "1शम"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "2 शमूएल",
+        "shortName": "2शम"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "1 राजा",
+        "shortName": "1रा"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "2 राजा",
+        "shortName": "2रा"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "1 इतिहास",
+        "shortName": "1इत"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "2 इतिहास",
+        "shortName": "2इत"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "एज्रा",
+        "shortName": "एज"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "नहेमायाह",
+        "shortName": "नहे"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "एस्तेर",
+        "shortName": "एस"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "अय्यूब",
+        "shortName": "अय"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "भजन",
+        "shortName": "भज"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "नीतिवचन",
+        "shortName": "नीत"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "सभोपदेशक",
+        "shortName": "सभ"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "श्रेष्ठगीत",
+        "shortName": "श्रेष"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "यशायाह",
+        "shortName": "यश"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "यिर्मयाह",
+        "shortName": "यिर्म"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "विलापगीत",
+        "shortName": "विल"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "यहेजकेल",
+        "shortName": "यहे"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "दानियेल",
+        "shortName": "दान"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "होशे",
+        "shortName": "हो"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "योएल",
+        "shortName": "योए"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "आमोस",
+        "shortName": "आम"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "ओबद्याह",
+        "shortName": "ओब"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "योना",
+        "shortName": "यो"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "मीका",
+        "shortName": "मी"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "नहूम",
+        "shortName": "नहू"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "हबक्कूक",
+        "shortName": "हब"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "सपन्याह",
+        "shortName": "सप"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "हाग्गै",
+        "shortName": "हाग"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "जकरयाह",
+        "shortName": "जक"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "मलाकी",
+        "shortName": "मला"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "मत्ती",
+        "shortName": "मत"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "मरकुस",
+        "shortName": "मर"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "लूका",
+        "shortName": "लूक"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "यूहन्‍ना",
+        "shortName": "यूह"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "प्रेषितों",
+        "shortName": "प्रेष"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "रोमियों",
+        "shortName": "रोम"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 कुरिंथियों",
+        "shortName": "1कुर"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 कुरिंथियों",
+        "shortName": "2कुर"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "गलातियों",
+        "shortName": "गल"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "इफिसियों",
+        "shortName": "इफ"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "फिलिप्पियों",
+        "shortName": "फिल"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "कुलुस्सियों",
+        "shortName": "कुल"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 थिस्सलुनीकियों",
+        "shortName": "1थि"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 थिस्सलुनीकियों",
+        "shortName": "2थि"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 तीमुथियुस",
+        "shortName": "1ती"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 तीमुथियुस",
+        "shortName": "2ती"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "तीतुस",
+        "shortName": "तीत"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "फिलेमोन",
+        "shortName": "फिले"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "इब्रानियों",
+        "shortName": "इब्र"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "याकूब",
+        "shortName": "याकू"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 पतरस",
+        "shortName": "1पत"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 पतरस",
+        "shortName": "2पत"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 यूहन्‍ना",
+        "shortName": "1यूह"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 यूहन्‍ना",
+        "shortName": "2यूह"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 यूहन्‍ना",
+        "shortName": "3यूह"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "यहूदा",
+        "shortName": "यहू"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "प्रकाशितवाक्य",
+        "shortName": "प्रक"
+    }
+]

@@ -1,0 +1,464 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "創世",
+        "shortName": "創"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "出エジプト",
+        "shortName": "出"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "レビ",
+        "shortName": "レビ"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "民数",
+        "shortName": "民"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "申命",
+        "shortName": "申"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "ヨシュア",
+        "shortName": "ヨシ"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "裁き人",
+        "shortName": "裁"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "ルツ",
+        "shortName": "ルツ"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "サムエル第一",
+        "shortName": "サ一"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "サムエル第二",
+        "shortName": "サ二"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "列王第一",
+        "shortName": "王一"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "列王第二",
+        "shortName": "王二"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "歴代第一",
+        "shortName": "代一"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "歴代第二",
+        "shortName": "代二"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "エズラ",
+        "shortName": "エズ"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "ネヘミヤ",
+        "shortName": "ネヘ"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "エステル",
+        "shortName": "エス"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "ヨブ",
+        "shortName": "ヨブ"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "詩編",
+        "shortName": "詩"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "格言",
+        "shortName": "格"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "伝道",
+        "shortName": "伝"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "ソロモンの歌",
+        "shortName": "ソロ"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "イザヤ",
+        "shortName": "イザ"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "エレミヤ",
+        "shortName": "エレ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "哀歌",
+        "shortName": "哀"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "エゼキエル",
+        "shortName": "エゼ"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "ダニエル",
+        "shortName": "ダニ"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "ホセア",
+        "shortName": "ホセ"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "ヨエル",
+        "shortName": "ヨエ"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "アモス",
+        "shortName": "アモ"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "オバデヤ",
+        "shortName": "オバ"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "ヨナ",
+        "shortName": "ヨナ"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "ミカ",
+        "shortName": "ミカ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "ナホム",
+        "shortName": "ナホ"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "ハバクク",
+        "shortName": "ハバ"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "ゼパニヤ",
+        "shortName": "ゼパ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "ハガイ",
+        "shortName": "ハガ"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "ゼカリヤ",
+        "shortName": "ゼカ"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "マラキ",
+        "shortName": "マラ"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "マタイ",
+        "shortName": "マタ"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "マルコ",
+        "shortName": "マル"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "ルカ",
+        "shortName": "ルカ"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "ヨハネ",
+        "shortName": "ヨハ"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "使徒",
+        "shortName": "使徒"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "ローマ",
+        "shortName": "ロマ"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 1,
+        "longName": "コリント第一",
+        "shortName": "コ一"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 1,
+        "longName": "コリント第二",
+        "shortName": "コ二"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 1,
+        "longName": "ガラテア",
+        "shortName": "ガラ"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "エフェソス",
+        "shortName": "エフ"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "フィリピ",
+        "shortName": "フィリ"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "コロサイ",
+        "shortName": "コロ"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 1,
+        "longName": "テサロニケ第一",
+        "shortName": "テサ一"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 1,
+        "longName": "テサロニケ第二",
+        "shortName": "テサ二"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "テモテ第一",
+        "shortName": "テモ一"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "テモテ第二",
+        "shortName": "テモ二"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "テトス",
+        "shortName": "テト"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "フィレモン",
+        "shortName": "フィレ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "ヘブライ",
+        "shortName": "ヘブ"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 1,
+        "longName": "ヤコブ",
+        "shortName": "ヤコ"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "ペテロ第一",
+        "shortName": "ペ一"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "ペテロ第二",
+        "shortName": "ペ二"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "ヨハネ第一",
+        "shortName": "ヨ一"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "ヨハネ第二",
+        "shortName": "ヨ二"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "ヨハネ第三",
+        "shortName": "ヨ三"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 1,
+        "longName": "ユダ",
+        "shortName": "ユダ"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "啓示",
+        "shortName": "啓"
+    }
+]

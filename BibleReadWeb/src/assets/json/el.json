@@ -1,0 +1,464 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "Γένεση",
+        "shortName": "Γε"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "Έξοδος",
+        "shortName": "Εξ"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "Λευιτικό",
+        "shortName": "Λευ"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "Αριθμοί",
+        "shortName": "Αρ"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "Δευτερονόμιο",
+        "shortName": "Δευ"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Ιησούς του Ναυή",
+        "shortName": "Ιη"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Κριτές",
+        "shortName": "Κρ"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Ρουθ",
+        "shortName": "Ρθ"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "1 Σαμουήλ",
+        "shortName": "1Σα"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "2 Σαμουήλ",
+        "shortName": "2Σα"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "1 Βασιλέων",
+        "shortName": "1Βα"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "2 Βασιλέων",
+        "shortName": "2Βα"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "1 Χρονικών",
+        "shortName": "1Χρ"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "2 Χρονικών",
+        "shortName": "2Χρ"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Έσδρας",
+        "shortName": "Εσδ"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Νεεμίας",
+        "shortName": "Νε"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Εσθήρ",
+        "shortName": "Εσθ"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "Ιώβ",
+        "shortName": "Ιώβ"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "Ψαλμοί",
+        "shortName": "Ψλ"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "Παροιμίες",
+        "shortName": "Παρ"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Εκκλησιαστής",
+        "shortName": "Εκ"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "Άσμα Ασμάτων",
+        "shortName": "Ασμ"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "Ησαΐας",
+        "shortName": "Ησ"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "Ιερεμίας",
+        "shortName": "Ιερ"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Θρήνοι",
+        "shortName": "Θρ"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "Ιεζεκιήλ",
+        "shortName": "Ιεζ"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Δανιήλ",
+        "shortName": "Δα"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Ωσηέ",
+        "shortName": "Ωσ"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Ιωήλ",
+        "shortName": "Ιωλ"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "Αμώς",
+        "shortName": "Αμ"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Αβδιού",
+        "shortName": "Αβδ"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Ιωνάς",
+        "shortName": "Ιων"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "Μιχαίας",
+        "shortName": "Μιχ"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Ναούμ",
+        "shortName": "Να"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Αββακούμ",
+        "shortName": "Αββ"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Σοφονίας",
+        "shortName": "Σοφ"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "Αγγαίος",
+        "shortName": "Αγγ"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Ζαχαρίας",
+        "shortName": "Ζαχ"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Μαλαχίας",
+        "shortName": "Μαλ"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Ματθαίος",
+        "shortName": "Ματ"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Μάρκος",
+        "shortName": "Μαρ"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Λουκάς",
+        "shortName": "Λου"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Ιωάννης",
+        "shortName": "Ιωα"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Πράξεις",
+        "shortName": "Πρ"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Ρωμαίους",
+        "shortName": "Ρω"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 Κορινθίους",
+        "shortName": "1Κο"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 Κορινθίους",
+        "shortName": "2Κο"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Γαλάτες",
+        "shortName": "Γα"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Εφεσίους",
+        "shortName": "Εφ"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Φιλιππησίους",
+        "shortName": "Φλπ"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Κολοσσαείς",
+        "shortName": "Κολ"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Θεσσαλονικείς",
+        "shortName": "1Θε"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Θεσσαλονικείς",
+        "shortName": "2Θε"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 Τιμόθεο",
+        "shortName": "1Τι"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 Τιμόθεο",
+        "shortName": "2Τι"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Τίτο",
+        "shortName": "Τιτ"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Φιλήμονα",
+        "shortName": "Φλμ"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Εβραίους",
+        "shortName": "Εβρ"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Ιακώβου",
+        "shortName": "Ιακ"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Πέτρου",
+        "shortName": "1Πε"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Πέτρου",
+        "shortName": "2Πε"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Ιωάννη",
+        "shortName": "1Ιω"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 Ιωάννη",
+        "shortName": "2Ιω"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 Ιωάννη",
+        "shortName": "3Ιω"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Ιούδα",
+        "shortName": "Ιου"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "Αποκάλυψη",
+        "shortName": "Απ"
+    }
+]

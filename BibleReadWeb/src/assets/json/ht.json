@@ -1,0 +1,464 @@
+[
+    {
+        "bookID": 1,
+        "chapterCount": "50",
+        "hasAudio": 0,
+        "longName": "Jenèz",
+        "shortName": "Jen"
+    },
+    {
+        "bookID": 2,
+        "chapterCount": "40",
+        "hasAudio": 0,
+        "longName": "Egzòd",
+        "shortName": "Eg"
+    },
+    {
+        "bookID": 3,
+        "chapterCount": "27",
+        "hasAudio": 0,
+        "longName": "Levitik",
+        "shortName": "Le"
+    },
+    {
+        "bookID": 4,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "Nonb",
+        "shortName": "Nb"
+    },
+    {
+        "bookID": 5,
+        "chapterCount": "34",
+        "hasAudio": 0,
+        "longName": "Detewonòm",
+        "shortName": "Dt"
+    },
+    {
+        "bookID": 6,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Jozye",
+        "shortName": "Joz"
+    },
+    {
+        "bookID": 7,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Jij",
+        "shortName": "Jj"
+    },
+    {
+        "bookID": 8,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Rit",
+        "shortName": "Rt"
+    },
+    {
+        "bookID": 9,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "1 Samyèl",
+        "shortName": "1Sa"
+    },
+    {
+        "bookID": 10,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "2 Samyèl",
+        "shortName": "2Sa"
+    },
+    {
+        "bookID": 11,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "1 Wa",
+        "shortName": "1Wa"
+    },
+    {
+        "bookID": 12,
+        "chapterCount": "25",
+        "hasAudio": 0,
+        "longName": "2 Wa",
+        "shortName": "2Wa"
+    },
+    {
+        "bookID": 13,
+        "chapterCount": "29",
+        "hasAudio": 0,
+        "longName": "1 Kwonik",
+        "shortName": "1Kw"
+    },
+    {
+        "bookID": 14,
+        "chapterCount": "36",
+        "hasAudio": 0,
+        "longName": "2 Kwonik",
+        "shortName": "2Kw"
+    },
+    {
+        "bookID": 15,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Esdras",
+        "shortName": "Esd"
+    },
+    {
+        "bookID": 16,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Neyemi",
+        "shortName": "Ne"
+    },
+    {
+        "bookID": 17,
+        "chapterCount": "10",
+        "hasAudio": 0,
+        "longName": "Estè",
+        "shortName": "Est"
+    },
+    {
+        "bookID": 18,
+        "chapterCount": "42",
+        "hasAudio": 0,
+        "longName": "Jòb",
+        "shortName": "Jb"
+    },
+    {
+        "bookID": 19,
+        "chapterCount": "150",
+        "hasAudio": 0,
+        "longName": "Sòm",
+        "shortName": "Sm"
+    },
+    {
+        "bookID": 20,
+        "chapterCount": "31",
+        "hasAudio": 0,
+        "longName": "Pwovèb",
+        "shortName": "Pw"
+    },
+    {
+        "bookID": 21,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Eklezyas",
+        "shortName": "Ekl"
+    },
+    {
+        "bookID": 22,
+        "chapterCount": "8",
+        "hasAudio": 0,
+        "longName": "Chante Salomon an",
+        "shortName": "Ch"
+    },
+    {
+        "bookID": 23,
+        "chapterCount": "66",
+        "hasAudio": 0,
+        "longName": "Ezayi",
+        "shortName": "Eza"
+    },
+    {
+        "bookID": 24,
+        "chapterCount": "52",
+        "hasAudio": 0,
+        "longName": "Jeremi",
+        "shortName": "Jr"
+    },
+    {
+        "bookID": 25,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Lamantasyon",
+        "shortName": "Lm"
+    },
+    {
+        "bookID": 26,
+        "chapterCount": "48",
+        "hasAudio": 0,
+        "longName": "Ezekyèl",
+        "shortName": "Eze"
+    },
+    {
+        "bookID": 27,
+        "chapterCount": "12",
+        "hasAudio": 0,
+        "longName": "Dànyèl",
+        "shortName": "Dn"
+    },
+    {
+        "bookID": 28,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Oze",
+        "shortName": "Oz"
+    },
+    {
+        "bookID": 29,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Jowèl",
+        "shortName": "Jl"
+    },
+    {
+        "bookID": 30,
+        "chapterCount": "9",
+        "hasAudio": 0,
+        "longName": "Amòs",
+        "shortName": "Am"
+    },
+    {
+        "bookID": 31,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Obadya",
+        "shortName": "Ob"
+    },
+    {
+        "bookID": 32,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Jonas",
+        "shortName": "Jon"
+    },
+    {
+        "bookID": 33,
+        "chapterCount": "7",
+        "hasAudio": 0,
+        "longName": "Miche",
+        "shortName": "Mi"
+    },
+    {
+        "bookID": 34,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Nawoum",
+        "shortName": "Na"
+    },
+    {
+        "bookID": 35,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Abakouk",
+        "shortName": "Ab"
+    },
+    {
+        "bookID": 36,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Sofoni",
+        "shortName": "Sf"
+    },
+    {
+        "bookID": 37,
+        "chapterCount": "2",
+        "hasAudio": 0,
+        "longName": "Aje",
+        "shortName": "Aj"
+    },
+    {
+        "bookID": 38,
+        "chapterCount": "14",
+        "hasAudio": 0,
+        "longName": "Zakari",
+        "shortName": "Za"
+    },
+    {
+        "bookID": 39,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Malachi",
+        "shortName": "Ml"
+    },
+    {
+        "bookID": 40,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Matye",
+        "shortName": "Mt"
+    },
+    {
+        "bookID": 41,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Mak",
+        "shortName": "Mk"
+    },
+    {
+        "bookID": 42,
+        "chapterCount": "24",
+        "hasAudio": 0,
+        "longName": "Lik",
+        "shortName": "Lk"
+    },
+    {
+        "bookID": 43,
+        "chapterCount": "21",
+        "hasAudio": 0,
+        "longName": "Jan",
+        "shortName": "Jan"
+    },
+    {
+        "bookID": 44,
+        "chapterCount": "28",
+        "hasAudio": 0,
+        "longName": "Travay",
+        "shortName": "Tr"
+    },
+    {
+        "bookID": 45,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "Women",
+        "shortName": "Wm"
+    },
+    {
+        "bookID": 46,
+        "chapterCount": "16",
+        "hasAudio": 0,
+        "longName": "1 Korentyen",
+        "shortName": "1Ko"
+    },
+    {
+        "bookID": 47,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "2 Korentyen",
+        "shortName": "2Ko"
+    },
+    {
+        "bookID": 48,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Galat",
+        "shortName": "Ga"
+    },
+    {
+        "bookID": 49,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "Efezyen",
+        "shortName": "Ef"
+    },
+    {
+        "bookID": 50,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Filipyen",
+        "shortName": "Fp"
+    },
+    {
+        "bookID": 51,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "Kolosyen",
+        "shortName": "Kl"
+    },
+    {
+        "bookID": 52,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Tesalonisyen",
+        "shortName": "1Te"
+    },
+    {
+        "bookID": 53,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Tesalonisyen",
+        "shortName": "2Te"
+    },
+    {
+        "bookID": 54,
+        "chapterCount": "6",
+        "hasAudio": 0,
+        "longName": "1 Timote",
+        "shortName": "1Ti"
+    },
+    {
+        "bookID": 55,
+        "chapterCount": "4",
+        "hasAudio": 0,
+        "longName": "2 Timote",
+        "shortName": "2Ti"
+    },
+    {
+        "bookID": 56,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "Tit",
+        "shortName": "Tt"
+    },
+    {
+        "bookID": 57,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Filemon",
+        "shortName": "Fm"
+    },
+    {
+        "bookID": 58,
+        "chapterCount": "13",
+        "hasAudio": 0,
+        "longName": "Ebre",
+        "shortName": "Eb"
+    },
+    {
+        "bookID": 59,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "Jak",
+        "shortName": "Jk"
+    },
+    {
+        "bookID": 60,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Pyè",
+        "shortName": "1P"
+    },
+    {
+        "bookID": 61,
+        "chapterCount": "3",
+        "hasAudio": 0,
+        "longName": "2 Pyè",
+        "shortName": "2P"
+    },
+    {
+        "bookID": 62,
+        "chapterCount": "5",
+        "hasAudio": 0,
+        "longName": "1 Jan",
+        "shortName": "1J"
+    },
+    {
+        "bookID": 63,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "2 Jan",
+        "shortName": "2J"
+    },
+    {
+        "bookID": 64,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "3 Jan",
+        "shortName": "3J"
+    },
+    {
+        "bookID": 65,
+        "chapterCount": "1",
+        "hasAudio": 0,
+        "longName": "Jid",
+        "shortName": "Jd"
+    },
+    {
+        "bookID": 66,
+        "chapterCount": "22",
+        "hasAudio": 0,
+        "longName": "Revelasyon",
+        "shortName": "Re"
+    }
+]

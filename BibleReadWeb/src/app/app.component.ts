@@ -13,16 +13,18 @@ export class AppComponent {
 
    ngOnInit() {
    // this.bibleService.loadFirstPlan(); 
-   //  this.bibleService.loadRegularPlan();
+//this.bibleService.loadRegularPlan();
    //   for (var a = 3; a <= 12; a++) {
    //      this.bibleService.loadPlans(a);  
    //   }
 
-   //    for (var a = 3; a <= 12; a++) {
-   //      this.bibleService.loadSelectedPlans(a);  
-   //   }
-  
-   this.bibleService.loadChronoPlan();
+       for (var a = 3; a <= 12; a++) {
+         this.bibleService.loadSelectedPlans(a);  
+      }
+   
+ // this.bibleService.loadLanguages()
+  //this.bibleService.loadLanguage()
+ //  this.bibleService.loadChronoPlan();
    //this.bibleService.loadBibleBooks();
   // this.bibleService.loadBibleHtml();
    // this.bibleService.loadBibleBookChapters();

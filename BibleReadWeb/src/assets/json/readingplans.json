@@ -1,0 +1,132 @@
+[
+    {
+        "DataPlans": "plan_0",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Regular",
+        "NumberDaysTotal": 365,
+        "StartDate": "2020-03-10 00:00:00.000",
+        "id": 0,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_1",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "One Year",
+        "NumberDaysTotal": 365,
+        "StartDate": null,
+        "id": 1,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_2",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Chronological",
+        "NumberDaysTotal": 499,
+        "StartDate": null,
+        "id": 2,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_3",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "The Writings of Moses",
+        "NumberDaysTotal": 76,
+        "StartDate": null,
+        "id": 3,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_4",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Israel enters the promised land",
+        "NumberDaysTotal": 18,
+        "StartDate": null,
+        "id": 4,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_5",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "When the kings ruled Isreal",
+        "NumberDaysTotal": 60,
+        "StartDate": null,
+        "id": 5,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_6",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "The Jews return from exile",
+        "NumberDaysTotal": 10,
+        "StartDate": null,
+        "id": 6,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_7",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Books of songs and practical wisdom",
+        "NumberDaysTotal": 41,
+        "StartDate": null,
+        "id": 7,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_8",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "The Prophets",
+        "NumberDaysTotal": 78,
+        "StartDate": null,
+        "id": 8,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_9",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Accounts of Jesus' Life and Ministry",
+        "NumberDaysTotal": 35,
+        "StartDate": null,
+        "id": 9,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_10",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "Growth of the christian congregation",
+        "NumberDaysTotal": 11,
+        "StartDate": null,
+        "id": 10,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_11",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "The letters of paul",
+        "NumberDaysTotal": 24,
+        "StartDate": null,
+        "id": 11,
+        "isRead": 0
+    },
+    {
+        "DataPlans": "plan_12",
+        "ImagePnr": null,
+        "ImageSqr": null,
+        "Name": "The writings of other apostles and disciples",
+        "NumberDaysTotal": 12,
+        "StartDate": null,
+        "id": 12,
+        "isRead": 0
+    }
+]
