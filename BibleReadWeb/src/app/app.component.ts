@@ -18,9 +18,9 @@ export class AppComponent {
    //      this.bibleService.loadPlans(a);  
    //   }
 
-       for (var a = 3; a <= 12; a++) {
-         this.bibleService.loadSelectedPlans(a);  
-      }
+      //  for (var a = 3; a <= 12; a++) {
+      //    this.bibleService.loadSelectedPlans(a);  
+      // }
    
  // this.bibleService.loadLanguages()
   //this.bibleService.loadLanguage()

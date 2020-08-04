@@ -520,9 +520,13 @@ export class BibleService {
       let bookName: string;
       let bookNumber: number;
       let bookData = [];
-
+      let books = []
 
       this.fetchChronoPlan().subscribe(data => {
+
+         for (var x = 1; x <= 66; x++) {
+            books.push(x)
+         }
 
             this.db.database.ref('/plans').child(`2`).set({
                index: 2,
@@ -530,8 +534,11 @@ export class BibleService {
                name: 'chronological',
                numberDaysTotal: data.length,
                planImagePNR: "plan_2_pnr",
-               planImageSQR: "plan_2_sqr"
+               planImageSQR: "plan_2_sqr",
+               books: books
             });
+
+
 
             data.forEach((d, i) => {
 
