@@ -12,15 +12,20 @@ export class AppComponent {
    constructor(private bibleService: BibleService) { }
 
    ngOnInit() {
-   // this.bibleService.loadFirstPlan(); 
+     // this.bibleService.getLanguagesCount().subscribe(data => console.log(data))
+      
+     // this.bibleService.loadBibleLanguage("cs", 30)
+
+     // this.bibleService.loadLocales()
+  //  this.bibleService.loadFirstPlan(); 
 //this.bibleService.loadRegularPlan();
-   //   for (var a = 3; a <= 12; a++) {
+   //   for (var a = 3; a <= 12; a++) { 
    //      this.bibleService.loadPlans(a);  
    //   }
 
-      //  for (var a = 3; a <= 12; a++) {
-      //    this.bibleService.loadSelectedPlans(a);  
-      // }
+      //   for (var a = 3; a <= 12; a++) {
+      //     this.bibleService.loadSelectedPlans(a);  
+      //  } 
    
  // this.bibleService.loadLanguages()
   //this.bibleService.loadLanguage()
@@ -32,6 +37,6 @@ export class AppComponent {
    // //    console.log(data)
    // // })
    }
-
-}
+ 
+} 
 

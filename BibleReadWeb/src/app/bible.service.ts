@@ -3,8 +3,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AngularFirestore } from '@angular/fire/firestore';
 import 'rxjs/add/operator/map';
-import { BibleData } from './classes/bible'
+import { map } from 'rxjs/operators';
+import { BibleData, BibleLanguage, Bible, BibleBook } from './classes/bible'
 import { AngularFireDatabase } from '@angular/fire/database';
+import { v4 as uuidv4 } from 'uuid';
 @Injectable({
    providedIn: 'root'
 })
@@ -20,17 +22,7 @@ export class BibleService {
    ranges: string;
    filteredPlans = []
    bibleBooks = [];
-   plans = ["Regular", "One Year", "", "The Writings of Moses", "Israel enters the promised land", "When the kings ruled Isreal", "The Jews return from exile", "Books of songs and practical wisdom", "The Prophets", "Accounts of Jesus\' Life and Ministry", "Growth of the christian congregation", "The letters of paul", "The writings of other apostles and disciples"]
-   languagesData = [
-      {
-         name: 'Hindi',
-         url: 'https://www.jw.org/hi/प्रकाशन/बाइबल/nwt/किताबें/'
-      },
-      {
-         name: 'Korean',
-         url: 'https://www.jw.org/ko/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/%EC%84%B1%EA%B2%BD/nwt/%EB%AA%A9%EC%B0%A8/'
-      }
-   ]
+   plans = [];
    books: BibleData;
 
    constructor(private http: HttpClient, private afs: AngularFirestore, private db: AngularFireDatabase) { }
@@ -139,24 +131,29 @@ export class BibleService {
          // }
          console.log(this.filteredPlans)
          plan.forEach((p, i) => {
-           
-            // this.db.database.ref('/plans').child('1').child('list').child(`${p[0].bookNumber}`).set({
-            //    bookName: p[0].bookName,
-            //    bookNumber: p[0].bookNumber,
-            //    isRead: false,
-            // })
+            let chapters = []
+     
+               let isMultiple: Boolean = p.chapters.split("-").length > 1
+               let firstChapter = Number(p.chapters.split("-")[0].trim())
 
-           // for (var i = 0; i < p.length; i++) {
-          
-               this.db.database.ref('/plans').child('1').child('chapters').child(`${i}`).set({
+               if (isMultiple) {
+                 let lastChapter = Number(p.chapters.split("-")[1].trim())
+                  for(let y = firstChapter; y <= lastChapter; y++) {
+                     chapters.push(y)
+                  }
+               } else {
+                  chapters = [firstChapter]
+               }
+
+               this.db.database.ref('/plans').child('1').child('days').child(`${i}`).set({
                   chapters: p.chapters,
                   isRead: false,
                   data: this.formatChapters(p.chapters, p.bookNumber),
                   bookName: p.bookName,
                   planNumber: 1,
                   bookNumber: p.bookNumber,
+                  chapterArray: chapters
                })
-
          })
       })
    }
@@ -222,7 +219,7 @@ export class BibleService {
    loadLanguage() {
      
          this.fetchLanguages().subscribe(l => {
-            l.forEach(element => {
+            l.forEach((element, index) => {
                this.fetchLanguage(`${element['locale']}`).subscribe(lang => {
                   
                   lang.forEach((item, index) => {
@@ -239,12 +236,49 @@ export class BibleService {
    })
    }
 
+   loadLocales() {
+     
+      this.fetchLocales().subscribe(l => {
+         l.forEach(locale => {
+            this.db.database.ref('/locales').child(`${locale['locale']}`).set({
+               api: locale['api'],
+               audioCode: locale['audioCode'],
+               bibleTranslation: locale['bibleTranslation'],
+               contentApi: locale['contentApi'],
+               index: locale['index'],
+               isRTL: locale['isRTL'] == 1 ? true : false,
+               locale: locale['locale'],
+               name:  locale['name'],
+               vernacularName: locale['vernacularName'],
+            })
+            locale['bibles'].forEach((bible, index) => {
+               this.db.database.ref('/locales').child(`${locale['locale']}`).child('bibles').child(`${index}`).set({
+                  bibleTranslation: bible['bibleTranslation'],
+                  contentApi:  bible['contentApi'],
+                  id: bible['id'],
+                  index: bible['index'],
+                  symbol: bible['symbol']
+               })
+            });
+            locale['books'].forEach((books, index) => {
+               this.db.database.ref('/locales').child(`${locale['locale']}`).child('books').child(`${index}`).set({
+                  bookID: books['bookID'],
+                  chapterCount: books['chapterCount'],
+                  hasAudio: books['hasAudio'],
+                  longName: books['longName'],
+                  shortName: books['shortName']
+               })
+            });
+         });
+   })
+}
+
    loadLanguages() {
       this.fetchLanguages().subscribe(l => {
-         console.log(l)
-         l.forEach(element => {
+       
+         l.forEach((element, index) => {
             console.log(element['locale'])
-            this.db.database.ref('/languages').child(`${element['locale']}`).set({
+            this.db.database.ref('/languages').child(`${index}`).set({
                api: element['api'],
                audioCode: element['audioCode'],
                bibleTranslation: element['bibleTranslation'],
@@ -293,8 +327,6 @@ export class BibleService {
 
       this.fetchData().subscribe((d) => {
 
-
-
          for (var i = 1; i <= 66; i++) {
             
 
@@ -304,7 +336,7 @@ export class BibleService {
 
 
             for (var x = 1; x <= totalChapters; x++) {
-
+               
                plans.push({
                   chapters: String(x),
                   bookName: d.editionData.books[`${i}`].standardName,
@@ -336,80 +368,22 @@ export class BibleService {
             });
             })
 
-         plans.forEach((p, i ) => {
-            this.db.database.ref('/plans').child(`0`).child('chapters').child(`${i}`).set({
+         plans.forEach((p, i) => {
+            let chapters = [Number(p.chapters)]
+
+            this.db.database.ref('/plans').child(`0`).child('days').child(`${i}`).set({
                chapters: p.chapters,
                bookName: p.bookName,
                bookNumber: p.bookNumber,
                planNumber: 0,
                isRead: false,
-               data: p.data
+               data: p.data,
+               chapterArray: chapters
                })
-         })
-      });
-   }
-
-   loadPlans(num: number) {
-      this.fetchData().subscribe(d => {
-
-         this.fetchPlans().subscribe(plan => {
-
-            let filteredBooks = [];
-
-            let filteredPlan = plan.filter(item => { return item.planNumber == num - 2 })
-
-            for (var b = 1; b <= 66; b++) {
-               let filterBook = filteredPlan.filter(book => book.bookNumber == b)
-               if (filterBook.length != 0) {
-                  filteredBooks.push(filterBook)
-               }
-            }
-
-            this.db.database.ref('/plans').child(`${num}`).set({
-               index: num,
-               isRead: false,
-               name: this.plans[num],
-               numberDaysTotal: filteredPlan.length
             })
-
-            for (var x = 1; x <= this.countBooks(filteredPlan); x++) {
-
-
-               this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).set({
-                  bookNumber: filteredBooks[x - 1][0].bookNumber,
-                  isRead: false,
-                  bookName: filteredBooks[x - 1][0].bookName
-               });
-
-               for (var i = 1; i <= filteredBooks[x - 1].length; i++) {
-
-               
-
-                  this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).child('chapters').child(`${i}`).set({
-                     chapters: `${filteredBooks[x - 1][i - 1].chapters}`,
-                     isRead: false,
-                     data: this.formatChapters(`${filteredBooks[x - 1][i - 1].chapters}`, filteredBooks[x - 1][i - 1].bookNumber)
-                  });
-
-                  if (this.countChapter(filteredBooks[x - 1][i - 1].chapters).length > 1) {
-
-                     for (var c = Number(this.countChapter(filteredBooks[x - 1][i - 1].chapters)[0]); c <= Number(this.countChapter(filteredBooks[x - 1][i - 1].chapters)[2]); c++) {
-                        // console.log(c)
-                        this.db.database.ref('/plans').child(`${num}`).child('list').child(`${x}`).child('chapters').child(`${i}`).child('list').child(`${c}`).set({
-
-                           chapters: `${c}`,
-                           isRead: false,
-                           data: this.formatChapters(`${c}`, filteredBooks[x - 1][i - 1].bookNumber)
-                        })
-                     }
-
-                  }
-               }
-            }
-         });
       });
-
    }
+
 
 
    loadSelectedPlans(num: number) {
@@ -435,15 +409,28 @@ export class BibleService {
             })
           //  filteredPlan.sort((a, b) => b.bookNumber < a.bookNumber)
             filteredPlan.forEach((p, x) => {
+               let chapters = []
+     
+               let isMultiple: Boolean = p.chapters.split("-").length > 1
+               let firstChapter = Number(p.chapters.split("-")[0].trim())
 
-              
-               this.db.database.ref('/plans').child(`${num}`).child('chapters').child(`${x}`).set({
+               if (isMultiple) {
+                 let lastChapter = Number(p.chapters.split("-")[1].trim())
+                  for(let y = firstChapter; y <= lastChapter; y++) {
+                     chapters.push(y)
+                  }
+               } else {
+                  chapters = [firstChapter]
+               }
+
+               this.db.database.ref('/plans').child(`${num}`).child('days').child(`${x}`).set({
                   bookNumber: p.bookNumber,
                   isRead: false,
                   bookName: p.bookName,
                   chapters: p.chapters,
                   planNumber: num,
-                  data: this.formatChapters(`${p.chapters}`, p.bookNumber)
+                  data: this.formatChapters(`${p.chapters}`, p.bookNumber),
+                  chapterArray: chapters
                });
             });
          });
@@ -516,6 +503,58 @@ export class BibleService {
       return portion
    }
 
+   loadBibleLanguage(locale: string, index: number) {
+
+      this.fetchBibleLanguage().subscribe(data => {
+         let language: BibleLanguage = data[locale]
+         // add to languages...
+      var name: String
+      if (language.lang.name.split(" ").length > 1) {
+         name = `locale${language.lang.name.split(" ")[0].toLowerCase()}${language.lang.name.split(" ")[1].toLowerCase()}`
+      } else {
+         name = `locale${language.lang.name.toLowerCase()}`
+      }
+      //  this.getLanguagesCount().subscribe(currentIndex => {
+         this.db.database.ref('/languages').child(`${index}`).set({
+            api: 'https://www.jw.org/en/library/bible/json/',
+            audioCode: language.lang.langcode,
+            bibleTranslation: "",
+            contentApi: "",
+            index: index,
+            isRTL: false,
+            locale: language.lang.symbol,
+            name: name,
+            vernacularName: language.lang.name,
+         })
+         language.editions.forEach((bible, bibleIndex) => {
+            this.db.database.ref('/languages').child(`${index}`).child('bibles').child(`${bibleIndex}`).set({
+               bibleTranslation: bible.title,
+               contentApi: bible.contentAPI != null ? bible.contentAPI : "",
+               id: uuidv4(),
+               index: bibleIndex,
+               symbol: bible.symbol
+            })
+         })
+
+         this.fetchBibleBooks(language.editions[0].contentAPI).subscribe(content => {
+            for (let bookindex = 1; bookindex <= 66; bookindex++) {
+              let bibleBook: BibleBook = content.editionData.books[bookindex]
+                
+                  this.db.database.ref('/languages').child(`${index}`).child('books').child(`${bookindex - 1}`).set({
+                  bookID: Number(bookindex),
+                  chapterCount: bibleBook.chapterCount,
+                  hasAudio: bibleBook.hasAudio,
+                  longName: bibleBook.standardName,
+                  shortName: bibleBook.officialAbbreviation 
+               })
+            };
+         }) 
+               
+            
+        // })
+      })
+}
+
    loadChronoPlan() {
       let bookName: string;
       let bookNumber: number;
@@ -542,13 +581,28 @@ export class BibleService {
 
             data.forEach((d, i) => {
 
-               this.db.database.ref('/plans').child(`2`).child('chapters').child(`${i}`).set({
+               let chapters = []
+             
+               let isMultiple: Boolean = d['Chapters'].split("-").length > 1
+               let firstChapter = Number(d['Chapters'].split("-")[0].trim())
+
+               if (isMultiple) {
+                 let lastChapter = Number(d['Chapters'].split("-")[1].trim())
+                  for(let y = firstChapter; y <= lastChapter; y++) {
+                     chapters.push(y)
+                  }
+               } else {
+                  chapters = [firstChapter]
+               }
+
+               this.db.database.ref('/plans').child(`2`).child('days').child(`${i}`).set({
                   bookName: d['BookName'],
                   bookNumber: d['BookNumber'],
                   isRead: false,
-                  data: d['Chapters'],
-                  chapters: d['Chapters_data'],
-                  planNumber: 2
+                  data: d['Chapters_data'],
+                  chapters: d['Chapters'],
+                  planNumber: 2,
+                  chapterArray: chapters
                })
             });
          })
@@ -582,16 +636,28 @@ export class BibleService {
    }
  
 
-
    fetchBible(): Observable<any> {
      // return this.afs.collection('bible').valueChanges();
       return this.db.list('/bible').valueChanges();
+   }
+
+   fetchBibleBooks(url: string): Observable<Bible> {
+      return this.http.get(`https://cors-anywhere.herokuapp.com/${url}`)
    }
 
 
    fetchLocaleData(urlLocale: string): Observable<any> {
      // return this.http.options(`https://www.jw.org${urlLocale}`, httpOptions)
       return this.http.get(`https://www.jw.org${urlLocale}`)
+   }
+
+   fetchBibleLanguage(): Observable<any> {
+      var languages: [BibleLanguage]
+      return this.http.get('https://cors-anywhere.herokuapp.com/https://www.jw.org/en/library/bible/json/').pipe(
+         map(data => {
+            return data['langs']
+         })
+      )
    }
 
    fetchReadingPlan(): Observable<any> {
@@ -611,6 +677,16 @@ export class BibleService {
    }
    fetchLanguages(): Observable<any> {
       return this.http.get(`../../assets/json/languages.json`)
+   }
+
+   getLanguagesCount(): Observable<number> {
+      return this.db.list('languages').valueChanges().pipe(
+         map(data => data.length - 1)
+      )
+   }
+
+   fetchLocales(): Observable<any> {
+      return this.http.get(`../../assets/json/brlanguages.json`)
    }
 
    getReadingPlan(): Observable<any> {
